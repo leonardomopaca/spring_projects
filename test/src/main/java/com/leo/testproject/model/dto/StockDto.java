@@ -8,6 +8,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+
 public class StockDto {
 
     private Long id;
