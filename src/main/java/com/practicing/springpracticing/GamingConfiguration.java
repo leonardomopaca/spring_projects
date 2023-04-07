@@ -2,6 +2,7 @@ package com.practicing.springpracticing;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 record Person(String name, int age){};
 record PersonComplete(String name, int age, Address address){};
@@ -22,7 +23,12 @@ public class GamingConfiguration {
         return(new Person("Paul", 32));
     }
     @Bean(name = "location")
+    @Primary
     public Address address(){
+        return new Address("123 First St", "Springfield");
+    }
+    @Bean()
+    public Address addressComplete(){
         return new Address("123 First St", "Springfield");
     }
     @Bean
