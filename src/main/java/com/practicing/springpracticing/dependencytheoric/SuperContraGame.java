@@ -1,5 +1,8 @@
 package com.practicing.springpracticing.dependencytheoric;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class SuperContraGame implements GamingConsole{
     @Override
     public void up() {
