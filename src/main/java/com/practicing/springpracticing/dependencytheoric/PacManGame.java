@@ -1,19 +1,22 @@
 package com.practicing.springpracticing.dependencytheoric;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PacManGame implements GamingConsole{
     public void up(){
-        System.out.println("Jump");
+        System.out.println("UP");
     }
 
     public void down(){
-        System.out.println("Getting into a hole");
+        System.out.println("DOWN");
     }
 
     public void left(){
-        System.out.println("Go back");
+        System.out.println("LEFT");
     }
 
     public void right(){
-        System.out.println("Going Forward");
+        System.out.println("RIGHT");
     }
 }
