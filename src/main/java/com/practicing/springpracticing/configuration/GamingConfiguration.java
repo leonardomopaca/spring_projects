@@ -1,4 +1,4 @@
-package com.practicing.springpracticing;
+package com.practicing.springpracticing.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
