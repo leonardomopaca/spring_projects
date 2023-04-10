@@ -1,6 +1,5 @@
-package examples.a1;
+package com.practicing.springpracticing.examples.a1;
 
-import com.practicing.springpracticing.dependencytheoric.GameRunner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
