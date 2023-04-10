@@ -1,4 +1,4 @@
-package examples.a0;
+package com.practicing.springpracticing.examples.a0;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
