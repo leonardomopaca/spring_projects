@@ -3,10 +3,12 @@ package com.practicing.springpracticing.repository;
 import com.practicing.springpracticing.entity.Course;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 @Repository
+@Transactional
 public class CourseJpaRepository {
 
     @PersistenceContext
