@@ -1,6 +1,6 @@
 package com.practicing.springpracticing.controller;
 
-import com.practicing.springpracticing.model.Course;
+import com.practicing.springpracticing.entity.Course;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
