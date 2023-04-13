@@ -29,17 +29,17 @@ public class CourseCommandLineRunner implements CommandLineRunner{
 
         repository.deleteById(1l);
 
-        System.out.println("FIND BY ID >>>>>>>>>>>" +repository.findById(2l));
-        System.out.println("FIND BY ID >>>>>>>>>>>" +repository.findById(3l));
-
-        System.out.println("FIND ALL >>>>>>>>>>>" + repository.findAll());
-        System.out.println("TOTAL >>>>>>>>>>>" +repository.count());
-
-        System.out.println("FIND BY AUTHOR >>>>>>>>>>>" +repository.findByAuthor("JOHN SMITH"));
-        System.out.println("FIND EMPTY >>>>>>>>>>>" +repository.findByAuthor(""));
-
-        System.out.println("FIND BY NAME >>>>>>>>>>>" +repository.findByName("MongoDB"));
-        System.out.println("FIND BY NAME >>>>>>>>>>>" +repository.findByName("H2"));
+//        System.out.println("FIND BY ID >>>>>>>>>>>" +repository.findById(2l));
+//        System.out.println("FIND BY ID >>>>>>>>>>>" +repository.findById(3l));
+//
+//        System.out.println("FIND ALL >>>>>>>>>>>" + repository.findAll());
+//        System.out.println("TOTAL >>>>>>>>>>>" +repository.count());
+//
+//        System.out.println("FIND BY AUTHOR >>>>>>>>>>>" +repository.findByAuthor("JOHN SMITH"));
+//        System.out.println("FIND EMPTY >>>>>>>>>>>" +repository.findByAuthor(""));
+//
+//        System.out.println("FIND BY NAME >>>>>>>>>>>" +repository.findByName("MongoDB"));
+//        System.out.println("FIND BY NAME >>>>>>>>>>>" +repository.findByName("H2"));
 
 
     }
